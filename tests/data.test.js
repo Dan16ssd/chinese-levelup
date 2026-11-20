@@ -46,7 +46,7 @@ test('patterns: every level has buildable examples', () => {
 });
 test('dialogues: questions have a correct answer and distractors', () => {
   for (let l = 1; l <= 6; l++) {
-    assert.ok((DIALOGUES[l] || []).length >= 2, 'dialogues HSK ' + l);
+    assert.ok((DIALOGUES[l] || []).filter(d => d.type === 'dialog').length >= 3, 'need 3+ conversations for HSK ' + l);
     DIALOGUES[l].forEach(d => {
       assert.ok(d.lines.length >= 3 && d.qs.length >= 2, d.title);
       d.qs.forEach(q => { assert.ok(q.ok); assert.ok(q.wrong.length >= 2); assert.ok(!q.wrong.includes(q.ok), q.q); });
@@ -70,4 +70,26 @@ test('every spoken text has a unique audio name; mp3s exist when audio/ is popul
     const missing = rows.filter(([n]) => !fs.existsSync(path.join(ROOT, 'audio', n)));
     assert.ok(missing.length === 0, missing.length + ' audio files missing, e.g. ' + (missing[0] || [])[1]);
   }
+});
+
+test('sentence-making course: every frame sentence renders, has audio, Lao and correct chunk order', () => {
+  const G = require('../js/grammar-data.js');
+  const have = new Set(fs.readFileSync(path.join(ROOT, 'audio/texts.tsv'), 'utf8').trim().split('\n').map(r => r.split('\t')[1]));
+  assert.ok(G.RULES.length >= 10);
+  G.RULES.forEach((r, i) => {
+    assert.ok(r.ex.length >= 3 && r.cmp.zh.length && r.cmp.lo.length, 'rule ' + i);
+    G.combos(r).forEach(sel => {
+      const o = G.render(r, sel);
+      assert.ok(have.has(o.zh), 'no audio text for ' + o.zh);
+      assert.match(o.lo, /[຀-໿]/);
+      assert.ok(o.chunks.every(c => G.ROLES[c[1]]), 'unknown role in ' + o.zh);
+      assert.ok(!/undefined/.test(o.py + o.lo), o.zh);
+    });
+  });
+  // 不 tone sandhi and the Lao-order mistake
+  const neg = G.RULES.find(r => r.zhTitle.startsWith('不'));
+  const qu = G.render(neg, [0, 0, 2]);
+  assert.match(qu.py, /bú qù/);
+  const time = G.RULES.find(r => r.zhTitle.includes('时间 + 动词'));
+  assert.deepEqual(G.laoOrderChunks(time, [0, 1, 0]), ['我', '去学校', '明天']);
 });

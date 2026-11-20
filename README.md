@@ -9,8 +9,9 @@ Live: https://dan16ssd.github.io/chinese-levelup/
 - 🎯 **Adaptive HSK placement test** (HSK 1 → 6) that unlocks the levels you already know
 - 🏁 **Level-up exam per level** (20 questions: listening, reading, tones, sentence building, dialogue comprehension); 80% unlocks the next level
 - 📚 **The complete HSK 2.0 vocabulary (5,000+ words)** plus 124 real-life sentences, with pinyin, Lao and English
+- 🧱 **How to make sentences** course: 11 word-order lessons comparing Lao ↔ Chinese with colour-coded roles, a sentence maker (280 combinations with audio) and practice that targets the typical Lao-order mistake
 - 🧩 **Sentence building**: 48 grammar patterns (8 per level) explained in Lao, with 147 tap-to-order exercises
-- 💬 **Dialogues & reading passages** for every level with comprehension questions
+- 💬 **21 real-life conversations (3–4 per level) + 6 reading passages (HSK 4–6)** with comprehension questions
 - 🔊 **Consistent native-quality audio**: 5,387 pre-generated MP3s (edge-tts, zh-CN-XiaoxiaoNeural) with 🐢 slow mode; falls back to the device voice
 - 🎤 **Speaking check**: speech recognition (Chrome) for characters, plus an **on-device tone-contour check** that draws your pitch curve against the native one
 - 📅 **Spaced repetition (SM-2)** with a daily due queue

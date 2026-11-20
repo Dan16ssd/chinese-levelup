@@ -1,7 +1,7 @@
 /* Offline support: app shell is cached on install; audio + fonts are cached as they are used
    (or ahead of time via "download level audio" in the app). Bump VERSION on every release. */
-const VERSION = 'clu-2026-11-21a';
-const SHELL = ['./', 'index.html', 'css/style.css', 'js/core.js', 'js/pinyin-data.js', 'js/app.js',
+const VERSION = 'clu-2026-11-21c';
+const SHELL = ['./', 'index.html', 'css/style.css', 'js/core.js', 'js/pinyin-data.js', 'js/grammar-data.js', 'js/app.js',
   'js/data/hsk1.js', 'js/data/hsk2.js', 'js/data/hsk3.js', 'js/data/hsk4.js', 'js/data/hsk5.js', 'js/data/hsk6.js', 'js/data/extra.js',
   'manifest.json', 'icon-192.png', 'icon-512.png'];
 const AUDIO = 'clu-audio', FONTS = 'clu-fonts';
@@ -39,7 +39,8 @@ self.addEventListener('fetch', e => {
   }
   if (url.origin !== location.origin) return;
   // app shell: network-first (fresh when online), cache fallback offline
-  e.respondWith(fetch(req).then(res => {
+  // revalidate with the server so a new release is picked up (navigations already revalidate)
+  e.respondWith(fetch(req.mode === 'navigate' ? req : new Request(req, { cache: 'no-cache' })).then(res => {
     if (res.ok) { const copy = res.clone(); caches.open(VERSION).then(c => c.put(req, copy)); }
     return res;
   }).catch(() => caches.match(req, { ignoreSearch: true }).then(r => r || caches.match('index.html'))));

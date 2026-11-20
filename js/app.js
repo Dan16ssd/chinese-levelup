@@ -500,6 +500,7 @@ function home() {
   <h2>ເສັ້ນທາງການຮຽນ</h2>
   <div class="road">
     <a class="card step" href="#/pinyin"><div class="badge l0">ຂັ້ນ<br>0</div><div><h3>ສຽງ ແລະ ວັນນະຍຸດ (Pinyin)</h3><p class="muted small">ພື້ນຖານທີ່ສຳຄັນທີ່ສຸດ: 4 ວັນນະຍຸດ, ພະຍັນຊະນະ, ສະຫຼະ — ທຽບກັບສຽງລາວ</p></div></a>
+    <a class="card step" href="#/grammar"><div class="badge l0">ຂັ້ນ<br>0+</div><div><h3>🧱 ວິທີສ້າງປະໂຫຍກ</h3><p class="muted small">${G.RULES.length} ກົດລຳດັບຄຳ ລາວ ↔ ຈີນ ດ້ວຍສີ, ສ້າງປະໂຫຍກເອງ ແລະ ຝຶກ${Object.keys(S.grammar || {}).length ? ` · ຮຽນແລ້ວ ${Object.keys(S.grammar).length}/${G.RULES.length}` : ''}</p></div></a>
     ${LEVELS.map(l => {
       const tot = itemsOf(l).length, m = masteredCount(l), lock = !isUnlocked(l), passed = S.passed[l];
       return `<a class="card step ${lock ? 'locked' : ''}" href="#/level/${l}">${badge(l)}<div style="flex:1"><h3>${lock ? '🔒 ' : passed ? '✅ ' : ''}${LEVEL_INFO[l].name}</h3><p class="muted small">${LEVEL_INFO[l].desc}</p>
@@ -696,6 +697,7 @@ function patterns(l) {
   app.innerHTML = `<a href="#/level/${l}" class="muted small">← HSK ${l}</a>
     <h1>🧩 ສ້າງປະໂຫຍກ · HSK ${l}</h1>
     <p class="muted">ຮຽນໂຄງສ້າງປະໂຫຍກທີ່ໃຊ້ຫຼາຍທີ່ສຸດຂອງລະດັບນີ້. ອ່ານຄຳອະທິບາຍ, ຟັງຕົວຢ່າງ, ແລ້ວຝຶກລຽງຄຳດ້ວຍຕົວເອງ.</p>
+    <div class="tip">ຍັງບໍ່ເຂົ້າໃຈລຳດັບຄຳພາສາຈີນ? ຮຽນ <a href="#/grammar">🧱 ວິທີສ້າງປະໂຫຍກ</a> ກ່ອນ (${G.RULES.length} ບົດສັ້ນໆ).</div>
     <div class="row"><a class="btn primary" href="#/build/${l}">🧩 ຝຶກທຸກໂຄງສ້າງ (${DB[l].p.length})</a></div>
     ${P.map((pt, pi) => {
       const ex = DB[l].p.filter(it => it.pat === pi), m = ex.filter(it => isMastered(it.id)).length;
@@ -733,6 +735,119 @@ function build(l, pi) {
     });
   };
   show();
+}
+
+/* ----- "how to make sentences" course ----- */
+const G = window.GRAMMAR;
+const chip = (t, r, extra = '') => `<span class="gc r-${r}" ${extra}>${esc(t)}</span>`;
+const legend = roles => `<div class="legend">${roles.map(r => `<span class="gc r-${r}">${esc(G.ROLES[r])}</span>`).join('')}</div>`;
+function grammarIndex() {
+  S.grammar = S.grammar || {};
+  app.innerHTML = `<h1>🧱 ວິທີສ້າງປະໂຫຍກພາສາຈີນ</h1>
+    <p>ພາສາຈີນບໍ່ມີການປ່ຽນຮູບຄຳ (ບໍ່ມີ past tense, ບໍ່ມີເພດ, ບໍ່ມີພະຫຸພົດ) — ຄືພາສາລາວ. ສິ່ງທີ່ສຳຄັນທີ່ສຸດແມ່ນ <b>ລຳດັບຄຳ</b>.
+    ບົດຮຽນນີ້ສອນ ${G.RULES.length} ກົດທີ່ຄົນລາວຕ້ອງຮູ້ ໂດຍປຽບທຽບລຳດັບຄຳ ລາວ ↔ ຈີນ ດ້ວຍສີ. ແຕ່ລະບົດ: ອ່ານກົດ → ເບິ່ງຕົວຢ່າງ → <b>ສ້າງປະໂຫຍກເອງ</b> → ຝຶກ.</p>
+    ${legend(['S', 'T', 'P', 'W', 'A', 'V', 'O'])}
+    <div class="road" style="margin-top:14px">${G.RULES.map((r, i) => {
+      const d = S.grammar[i];
+      return `<a class="card step" href="#/grammar/${i}"><div class="badge l${Math.min(6, 1 + Math.floor(i / 2))}">ບົດ<br>${i + 1}</div><div style="flex:1">
+        <h3>${d ? '✅ ' : ''}${esc(r.title)}</h3><div class="zh muted small">${esc(r.zhTitle)}</div>
+        <div class="cmpmini">${r.cmp.lo.map(c => chip(c[0], c[1])).join('')} <span class="muted">→</span> ${r.cmp.zh.map(c => chip(c[0], c[1])).join('')}</div>
+        ${d ? `<div class="small muted">ຝຶກແລ້ວ: ${d.score}/${d.n}</div>` : ''}</div></a>`;
+    }).join('')}</div>
+    <div class="tip" style="margin-top:14px">ຮຽນຈົບແລ້ວ? ໄປທີ່ <a href="#/patterns/1">🧩 ໂຄງສ້າງປະໂຫຍກ HSK 1</a> ເພື່ອຮຽນຮູບແບບປະໂຫຍກຕາມລະດັບ HSK.</div>`;
+}
+function grammarLesson(i) {
+  i = +i; const r = G.RULES[i];
+  if (!r) return grammarIndex();
+  const f = r.frame, sel = f.slots.map(() => 0);
+  app.innerHTML = `<a href="#/grammar" class="muted small">← ທຸກບົດ</a>
+    <div class="qtag" style="margin-top:8px">ບົດທີ ${i + 1} / ${G.RULES.length}</div>
+    <h1 style="margin-top:4px">${esc(r.title)}</h1><div class="zh muted">${esc(r.zhTitle)}</div>
+    <div class="card" style="margin-top:12px"><p style="margin:0">${r.lo}</p></div>
+
+    <h2>ລາວ ↔ ຈີນ</h2>
+    <div class="card cmp">
+      <div class="cmprow"><span class="flag">ລາວ</span>${r.cmp.lo.map(c => chip(c[0], c[1])).join('')}</div>
+      <div class="cmprow"><span class="flag">ຈີນ</span>${r.cmp.zh.map(c => chip(c[0], c[1], 'lang="zh"')).join('')} ${sayBtns(r.cmp.zh.map(c => c[0]).join(''))}</div>
+      <div class="small ${r.cmp.same ? 'fb-ok' : 'fb-no'}" style="margin-top:6px">${r.cmp.same ? '✅ ລຳດັບຄືກັນກັບພາສາລາວ' : '⚠️ ລຳດັບຕ່າງຈາກພາສາລາວ — ສັງເກດສີທີ່ຍ້າຍບ່ອນ'}</div>
+      ${legend([...new Set(r.cmp.zh.map(c => c[1]))])}
+    </div>
+
+    <h2>ຕົວຢ່າງ</h2>
+    ${r.ex.map(e => `<div class="vitem"><div><span class="zh" style="font-size:20px">${esc(e[0])}</span><div class="py">${esc(e[1])}</div><div class="lo">${esc(e[2])}</div></div><div class="row" style="gap:6px">${sayBtns(e[0])}</div></div>`).join('')}
+
+    <h2>🛠 ສ້າງປະໂຫຍກເອງ</h2>
+    <p class="small muted">ເລືອກຄຳໃນແຕ່ລະຊ່ອງ — ລະບົບຈະສ້າງປະໂຫຍກພາສາຈີນທີ່ຖືກລຳດັບໃຫ້ ພ້ອມສຽງ ແລະ ຄຳແປ.</p>
+    <div class="card maker">
+      ${f.slots.map((s, k) => `<div class="slot"><div class="small"><span class="gc r-${s.r}">${esc(G.ROLES[s.r])}</span></div>
+        <div class="row" style="gap:6px;margin-top:4px">${s.o.map((o, j) => `<button class="opt sl ${j === 0 ? 'on' : ''}" data-s="${k}" data-j="${j}">${o[0] ? `<span class="zh">${esc(o[0])}</span> <span class="small muted">${esc(o[2])}</span>` : '<span class="small muted">(ບໍ່ມີ)</span>'}</button>`).join('')}</div></div>`).join('')}
+      <div class="made" data-made></div>
+      <div class="row"><button class="btn" data-rnd>🎲 ສຸ່ມ</button></div>
+    </div>
+
+    <h2>✍️ ຝຶກ</h2>
+    <div id="gp"><button class="btn primary" data-practice>ເລີ່ມຝຶກ 6 ຂໍ້</button></div>
+    <div class="row" style="justify-content:space-between;margin-top:18px">
+      ${i > 0 ? `<a class="btn" href="#/grammar/${i - 1}">← ບົດກ່ອນ</a>` : '<span></span>'}
+      ${i + 1 < G.RULES.length ? `<a class="btn primary" href="#/grammar/${i + 1}">ບົດຕໍ່ໄປ →</a>` : `<a class="btn primary" href="#/patterns/1">🧩 ໂຄງສ້າງ HSK 1 →</a>`}
+    </div>`;
+  const made = $('[data-made]');
+  const draw = (speak) => {
+    const out = G.render(r, sel);
+    made.innerHTML = `<div class="zh madezh">${out.chunks.map(c => chip(c[0], c[1])).join('')}<span>${f.end}</span></div>
+      <div class="py">${esc(out.py)}</div><div class="lo-big" style="font-size:18px">${esc(out.lo)}</div>
+      <div class="row" style="justify-content:center;gap:6px">${sayBtns(out.zh)}</div>`;
+    $$('.sl').forEach(b => b.classList.toggle('on', sel[+b.dataset.s] === +b.dataset.j));
+    if (speak) say(out.zh);
+  };
+  $$('.sl').forEach(b => b.addEventListener('click', () => { sel[+b.dataset.s] = +b.dataset.j; draw(true); }));
+  $('[data-rnd]').addEventListener('click', () => { f.slots.forEach((s, k) => { sel[k] = rand(s.o.length); }); draw(true); });
+  draw(false);
+  $('[data-practice]').addEventListener('click', () => grammarPractice(i, $('#gp')));
+}
+function grammarPractice(i, host) {
+  const r = G.RULES[i], all = shuffle(G.combos(r));
+  const qs = all.slice(0, 6);
+  let k = 0, score = 0;
+  const next = () => {
+    if (k >= qs.length) {
+      S.grammar = S.grammar || {};
+      S.grammar[i] = { score, n: qs.length, t: Date.now() }; save();
+      host.innerHTML = `<div class="card result"><div class="lvl">${score}/${qs.length}</div><p>${score >= 5 ? 'ເກັ່ງຫຼາຍ! ໄປບົດຕໍ່ໄປໄດ້ເລີຍ 👏' : 'ລອງສ້າງປະໂຫຍກເອງອີກ ແລ້ວຝຶກໃໝ່'}</p>
+        <div class="row" style="justify-content:center"><button class="btn" data-again>🔁 ຝຶກອີກ</button>${i + 1 < G.RULES.length ? `<a class="btn primary" href="#/grammar/${i + 1}">ບົດຕໍ່ໄປ →</a>` : ''}</div></div>`;
+      $('[data-again]', host).addEventListener('click', () => grammarPractice(i, host));
+      return;
+    }
+    const sel = qs[k], out = G.render(r, sel);
+    const it = { id: 'g:' + out.zh, zh: out.zh, py: out.py, lo: out.lo, en: '', lvl: 1, kind: 'g', tiles: out.chunks.map(c => c[0]) };
+    host.innerHTML = `<div class="qtag">${k + 1}/${qs.length}</div><div class="sub"></div>`;
+    const box = $('.sub', host);
+    const done = (ok, fb) => {
+      if (ok) { score++; S.xp += 5; save(); }
+      say(out.zh);
+      fb.innerHTML = `<div style="margin-top:12px" class="${ok ? 'fb-ok' : 'fb-no'}">${ok ? '✅ ຖືກຕ້ອງ!' : '❌ ລຳດັບທີ່ຖືກ:'}</div>
+        <div class="made"><div class="zh madezh">${out.chunks.map(c => chip(c[0], c[1])).join('')}<span>${r.frame.end}</span></div><div class="py">${esc(out.py)}</div><div>${esc(out.lo)}</div></div>
+        <button class="btn primary block" style="margin-top:10px" data-n>ຕໍ່ໄປ →</button>`;
+      $('[data-n]', fb).addEventListener('click', () => { k++; next(); });
+    };
+    if (k % 2 === 0 || it.tiles.length < 3) {
+      // choose the correctly ordered sentence; distractors include the "Lao order" mistake
+      const right = it.tiles.join('');
+      // time words may also start the sentence (明天我去…), so that order is correct too — never offer it as wrong
+      const ti = out.chunks.findIndex(c => c[1] === 'T');
+      const alsoRight = ti > 0 ? [out.chunks[ti][0], ...it.tiles.filter((_, j) => j !== ti)].join('') : null;
+      const wrongs = new Set();
+      wrongs.add = (orig => function (v) { return v === alsoRight || v === right ? this : orig.call(this, v); })(wrongs.add);
+      const lao = G.laoOrderChunks(r, sel); if (lao) wrongs.add(lao.join(''));
+      for (let t = 0; t < 30 && wrongs.size < 3; t++) { const p = shuffle(it.tiles).join(''); if (p !== right) wrongs.add(p); }
+      const q = { ask: 'ປະໂຫຍກໃດຖືກລຳດັບ?', prompt: `<div class="lo-big">${esc(out.lo)}</div>`, optClass: 'zh',
+        opts: shuffle([{ label: right + r.frame.end, ok: true }, ...[...wrongs].slice(0, 3).map(w => ({ label: w + r.frame.end, ok: false }))]) };
+      renderChoices(box, q, { onDone: done });
+    } else {
+      renderBuild(box, it, { onDone: done });
+    }
+  };
+  next();
 }
 
 /* ----- dialogues & passages ----- */
@@ -1157,7 +1272,7 @@ function report() {
 }
 
 /* ---------------- router ---------------- */
-const routes = { '': home, test: placement, levels, level, quiz, cards, patterns, build, dialogues, dialog, exam, pinyin, review, settings, privacy, report };
+const routes = { '': home, test: placement, levels, grammar: (i) => (i === undefined || i === '' ? grammarIndex() : grammarLesson(i)), level, quiz, cards, patterns, build, dialogues, dialog, exam, pinyin, review, settings, privacy, report };
 function router() {
   AUDIO.stop();
   const [r, ...args] = location.hash.replace(/^#\/?/, '').split('/');
@@ -1165,7 +1280,7 @@ function router() {
   window.scrollTo(0, 0);
   $$('nav a').forEach(a => {
     const h = a.getAttribute('href').replace('#/', '');
-    a.classList.toggle('active', h === r || (h === 'levels' && ['level', 'quiz', 'cards', 'patterns', 'build', 'dialogues', 'dialog', 'exam'].includes(r)));
+    a.classList.toggle('active', h === r || (h === 'levels' && ['level', 'quiz', 'cards', 'patterns', 'build', 'dialogues', 'dialog', 'exam'].includes(r)) || (h === 'grammar' && r === 'grammar'));
   });
 }
 addEventListener('hashchange', router);

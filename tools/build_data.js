@@ -11,6 +11,7 @@
 const fs = require('fs'), path = require('path');
 const CORE = require('../js/core.js');
 const PY = require('../js/pinyin-data.js');
+const GR = require('../js/grammar-data.js');
 const ROOT = path.join(__dirname, '..');
 const rd = p => fs.readFileSync(path.join(ROOT, p), 'utf8');
 const LEVELS = [1, 2, 3, 4, 5, 6];
@@ -116,6 +117,7 @@ for (const l of LEVELS) {
   (dialogues[l] || []).forEach(d => d.lines.forEach(x => texts.add(x.zh)));
 }
 PY.allTexts().forEach(t => texts.add(t));
+GR.allTexts().forEach(t => texts.add(t));
 const names = new Map();
 for (const t of texts) {
   const n = CORE.audioName(t);
