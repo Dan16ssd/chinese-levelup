@@ -1,0 +1,211 @@
+# Sentence patterns (ໂຄງສ້າງປະໂຫຍກ)
+# "## N" = HSK level, "# title | Lao explanation" = a pattern,
+# example lines: Chinese words separated by spaces (= tiles for the sentence builder) | pinyin | Lao | English
+
+## 1
+# A 是 B | ໃຊ້ບອກວ່າ A ແມ່ນ / ເປັນ B. ປະຕິເສດໃຊ້ 不是 (bú shì).
+我 是 学生。|wǒ shì xuésheng.|ຂ້ອຍເປັນນັກຮຽນ.|I am a student.
+他 不是 老师。|tā bú shì lǎoshī.|ລາວບໍ່ແມ່ນຄູ.|He is not a teacher.
+我 是 老挝人。|wǒ shì Lǎowōrén.|ຂ້ອຍເປັນຄົນລາວ.|I am Lao.
+# ... 吗？ (ຄຳຖາມ ແມ່ນ/ບໍ່) | ເພີ່ມ 吗 ທ້າຍປະໂຫຍກ = ຄຳຖາມ "ບໍ?". ລຳດັບຄຳບໍ່ປ່ຽນ.
+你 是 中国人 吗？|nǐ shì Zhōngguórén ma?|ເຈົ້າເປັນຄົນຈີນບໍ?|Are you Chinese?
+你 喜欢 喝 茶 吗？|nǐ xǐhuan hē chá ma?|ເຈົ້າມັກດື່ມຊາບໍ?|Do you like drinking tea?
+你 会 说 汉语 吗？|nǐ huì shuō Hànyǔ ma?|ເຈົ້າເວົ້າພາສາຈີນເປັນບໍ?|Can you speak Chinese?
+# ຄຳຖາມດ້ວຍ 什么 / 谁 / 哪儿 / 几 | ຄຳຖາມຢູ່ບ່ອນດຽວກັບຄຳຕອບ — ບໍ່ຕ້ອງຍ້າຍໄປຕົ້ນປະໂຫຍກຄືພາສາອັງກິດ, ແລະ ບໍ່ໃຊ້ 吗.
+你 叫 什么 名字？|nǐ jiào shénme míngzi?|ເຈົ້າຊື່ຫຍັງ?|What's your name?
+他 是 谁？|tā shì shéi?|ລາວແມ່ນໃຜ?|Who is he?
+你 去 哪儿？|nǐ qù nǎr?|ເຈົ້າໄປໃສ?|Where are you going?
+# Subject + 很 + Adjective | ຄຳຄຸນນາມບໍ່ໃຊ້ 是. ໃຊ້ 很 ລະຫວ່າງ (ຄື "ຫຼາຍ" ແຕ່ອ່ອນກວ່າ).
+今天 很 热。|jīntiān hěn rè.|ມື້ນີ້ຮ້ອນຫຼາຍ.|It's hot today.
+我 很 高兴。|wǒ hěn gāoxìng.|ຂ້ອຍດີໃຈຫຼາຍ.|I'm very happy.
+这个 菜 太 贵 了。|zhège cài tài guì le.|ອາຫານນີ້ແພງໂພດ.|This dish is too expensive.
+# 在 + ສະຖານທີ່ (ຢູ່) | 在 = ຢູ່. "ຄົນ + 在 + ບ່ອນ" ຫຼື "ຄົນ + 在 + ບ່ອນ + ເຮັດຫຍັງ".
+我 在 家。|wǒ zài jiā.|ຂ້ອຍຢູ່ບ້ານ.|I'm at home.
+他 在 医院 工作。|tā zài yīyuàn gōngzuò.|ລາວເຮັດວຽກຢູ່ໂຮງໝໍ.|He works at a hospital.
+洗手间 在 哪儿？|xǐshǒujiān zài nǎr?|ຫ້ອງນ້ຳຢູ່ໃສ?|Where's the toilet?
+# ເວລາ ຢູ່ກ່ອນຄຳກິລິຍາ | ຄຳບອກເວລາ (今天, 明天, 三点) ວາງຫຼັງ ຫຼື ກ່ອນປະທານ — ແຕ່ຕ້ອງກ່ອນຄຳກິລິຍາ ສະເໝີ.
+我 明天 去 北京。|wǒ míngtiān qù Běijīng.|ຂ້ອຍຈະໄປປັກກິ່ງມື້ອື່ນ.|I'm going to Beijing tomorrow.
+我们 下午 三点 见。|wǒmen xiàwǔ sān diǎn jiàn.|ພວກເຮົາພົບກັນຕອນບ່າຍສາມໂມງ.|Let's meet at 3 p.m.
+她 今天 不 上班。|tā jīntiān bú shàngbān.|ມື້ນີ້ລາວບໍ່ໄປເຮັດວຽກ.|She isn't working today.
+# ຕົວເລກ + ລັກສະນະນາມ + ຄຳນາມ | ຄືພາສາລາວ "ປຶ້ມ 3 ຫົວ" ແຕ່ລຳດັບກັບກັນ: 三 本 书. ໃຊ້ 两 ແທນ 二 ກ່ອນລັກສະນະນາມ.
+我 有 两个 孩子。|wǒ yǒu liǎng ge háizi.|ຂ້ອຍມີລູກສອງຄົນ.|I have two children.
+我 想 买 三本 书。|wǒ xiǎng mǎi sān běn shū.|ຂ້ອຍຢາກຊື້ປຶ້ມສາມຫົວ.|I want to buy three books.
+这个 多少 钱？|zhège duōshao qián?|ອັນນີ້ເທົ່າໃດ?|How much is this?
+# 想 / 会 / 能 + ຄຳກິລິຍາ | 想 = ຢາກ, 会 = ເປັນ (ຮຽນມາ), 能 = ສາມາດ (ມີເງື່ອນໄຂ).
+我 想 喝 水。|wǒ xiǎng hē shuǐ.|ຂ້ອຍຢາກດື່ມນ້ຳ.|I want to drink water.
+我 会 开 车。|wǒ huì kāi chē.|ຂ້ອຍຂັບລົດເປັນ.|I can drive.
+你 能 帮 我 吗？|nǐ néng bāng wǒ ma?|ເຈົ້າຊ່ວຍຂ້ອຍໄດ້ບໍ?|Can you help me?
+# 的 (ຂອງ) | A 的 B = B ຂອງ A — ລຳດັບກັບກັນກັບພາສາລາວ. 我的书 = ປຶ້ມຂອງຂ້ອຍ.
+这 是 我的 书。|zhè shì wǒ de shū.|ນີ້ແມ່ນປຶ້ມຂອງຂ້ອຍ.|This is my book.
+他 是 我的 朋友。|tā shì wǒ de péngyou.|ລາວເປັນໝູ່ຂອງຂ້ອຍ.|He is my friend.
+我 妈妈的 名字 叫 小红。|wǒ māma de míngzi jiào Xiǎohóng.|ແມ່ຂອງຂ້ອຍຊື່ ສ້ຽວຫົງ.|My mother's name is Xiaohong.
+
+## 2
+# 了 (ເຮັດແລ້ວ) | ເພີ່ມ 了 ຫຼັງຄຳກິລິຍາ ຫຼື ທ້າຍປະໂຫຍກ = ເຫດການສຳເລັດແລ້ວ. ປະຕິເສດໃຊ້ 没 (ບໍ່ໃຊ້ 了).
+我 吃 了 饭。|wǒ chī le fàn.|ຂ້ອຍກິນເຂົ້າແລ້ວ.|I have eaten.
+他 已经 走 了。|tā yǐjīng zǒu le.|ລາວໄປແລ້ວ.|He has already left.
+我 没 买 票。|wǒ méi mǎi piào.|ຂ້ອຍບໍ່ໄດ້ຊື້ປີ້.|I didn't buy a ticket.
+# A 比 B + Adjective | ປຽບທຽບ: A ... ກວ່າ B. ຫ້າມໃຊ້ 很 ໃນປະໂຫຍກ 比.
+他 比 我 高。|tā bǐ wǒ gāo.|ລາວສູງກວ່າຂ້ອຍ.|He is taller than me.
+今天 比 昨天 冷。|jīntiān bǐ zuótiān lěng.|ມື້ນີ້ໜາວກວ່າມື້ວານ.|Today is colder than yesterday.
+坐 飞机 比 坐 火车 快。|zuò fēijī bǐ zuò huǒchē kuài.|ນັ່ງຍົນໄວກວ່ານັ່ງລົດໄຟ.|Flying is faster than taking the train.
+# 正在 / 在 + ຄຳກິລິຍາ (ກຳລັງ) | ບອກວ່າກຳລັງເຮັດຢູ່. ທ້າຍປະໂຫຍກມັກມີ 呢.
+我 正在 吃饭 呢。|wǒ zhèngzài chīfàn ne.|ຂ້ອຍກຳລັງກິນເຂົ້າຢູ່.|I'm eating right now.
+她 在 打电话。|tā zài dǎ diànhuà.|ລາວກຳລັງໂທລະສັບ.|She's on the phone.
+外面 正在 下雨。|wàimiàn zhèngzài xià yǔ.|ຂ້າງນອກກຳລັງຝົນຕົກ.|It's raining outside.
+# 因为…，所以… | ເພາະວ່າ…, ສະນັ້ນ…  ໃຊ້ອະທິບາຍເຫດຜົນ.
+因为 下雨，所以 我 不 去 了。|yīnwèi xià yǔ, suǒyǐ wǒ bú qù le.|ເພາະຝົນຕົກ ຂ້ອຍຈຶ່ງບໍ່ໄປແລ້ວ.|Because it's raining, I'm not going.
+因为 我 生病 了，所以 没 上班。|yīnwèi wǒ shēngbìng le, suǒyǐ méi shàngbān.|ເພາະຂ້ອຍບໍ່ສະບາຍ ຈຶ່ງບໍ່ໄດ້ໄປເຮັດວຽກ.|Because I was sick, I didn't go to work.
+因为 太 贵 了，所以 我 没 买。|yīnwèi tài guì le, suǒyǐ wǒ méi mǎi.|ເພາະແພງໂພດ ຂ້ອຍຈຶ່ງບໍ່ໄດ້ຊື້.|It was too expensive, so I didn't buy it.
+# Verb + 过 (ເຄີຍ) | ບອກປະສົບການ "ເຄີຍ...". ປະຕິເສດ: 没 + Verb + 过.
+我 去 过 中国。|wǒ qù guo Zhōngguó.|ຂ້ອຍເຄີຍໄປປະເທດຈີນ.|I've been to China.
+你 吃 过 北京 烤鸭 吗？|nǐ chī guo Běijīng kǎoyā ma?|ເຈົ້າເຄີຍກິນເປັດປັກກິ່ງບໍ?|Have you ever had Peking duck?
+我 没 坐 过 飞机。|wǒ méi zuò guo fēijī.|ຂ້ອຍບໍ່ເຄີຍນັ່ງຍົນ.|I've never been on a plane.
+# 从 A 到 B | ຈາກ A ເຖິງ B (ບ່ອນ ຫຼື ເວລາ).
+从 这儿 到 机场 远 吗？|cóng zhèr dào jīchǎng yuǎn ma?|ຈາກບ່ອນນີ້ໄປສະໜາມບິນໄກບໍ?|Is it far from here to the airport?
+我 从 九点 到 五点 上班。|wǒ cóng jiǔ diǎn dào wǔ diǎn shàngbān.|ຂ້ອຍເຮັດວຽກແຕ່ເກົ້າໂມງເຖິງຫ້າໂມງ.|I work from nine to five.
+从 万象 到 北京 要 几个 小时？|cóng Wànxiàng dào Běijīng yào jǐ ge xiǎoshí?|ຈາກວຽງຈັນໄປປັກກິ່ງໃຊ້ເວລາຈັກຊົ່ວໂມງ?|How many hours from Vientiane to Beijing?
+# Verb + 得 + ລະດັບ (ເຮັດໄດ້...) | ອະທິບາຍວ່າເຮັດ "ໄດ້ດີ/ໄວ/ຊ້າ" ປານໃດ.
+他 说 得 很 好。|tā shuō de hěn hǎo.|ລາວເວົ້າໄດ້ດີຫຼາຍ.|He speaks very well.
+你 跑 得 太 快 了。|nǐ pǎo de tài kuài le.|ເຈົ້າແລ່ນໄວໂພດ.|You run too fast.
+她 唱歌 唱 得 很 好听。|tā chànggē chàng de hěn hǎotīng.|ລາວຮ້ອງເພງມ່ວນຫຼາຍ.|She sings beautifully.
+# 要 / 可以 (ຈະ / ໄດ້ບໍ) | 要 = ຕ້ອງການ / ກຳລັງຈະ; 可以 = ອະນຸຍາດ / ໄດ້.
+我 要 一杯 咖啡。|wǒ yào yì bēi kāfēi.|ຂ້ອຍເອົາກາເຟຈອກໜຶ່ງ.|I'd like a coffee.
+这里 可以 拍照 吗？|zhèlǐ kěyǐ pāizhào ma?|ບ່ອນນີ້ຖ່າຍຮູບໄດ້ບໍ?|Can I take photos here?
+可以 便宜 一点 吗？|kěyǐ piányi yìdiǎn ma?|ຫຼຸດລາຄາໃຫ້ແດ່ໄດ້ບໍ?|Can you make it a bit cheaper?
+
+## 3
+# 把 + ສິ່ງຂອງ + Verb + ຜົນ | ເອົາສິ່ງຂອງໄປ "ເຮັດໃຫ້ເປັນແນວໃດ". ໃຊ້ຫຼາຍໃນຊີວິດປະຈຳວັນ.
+请 把 门 关上。|qǐng bǎ mén guānshang.|ກະລຸນາປິດປະຕູ.|Please close the door.
+我 把 手机 忘 在 家 了。|wǒ bǎ shǒujī wàng zài jiā le.|ຂ້ອຍລືມໂທລະສັບໄວ້ຢູ່ບ້ານ.|I left my phone at home.
+你 把 这个 给 他 吧。|nǐ bǎ zhège gěi tā ba.|ເຈົ້າເອົາອັນນີ້ໃຫ້ລາວເທາະ.|Give this to him.
+# 被 (ຖືກ...) | ປະໂຫຍກຖືກກະທຳ: ສິ່ງຂອງ + 被 + ຄົນ + ການກະທຳ.
+我的 钱包 被 偷 了。|wǒ de qiánbāo bèi tōu le.|ກະເປົາເງິນຂ້ອຍຖືກລັກ.|My wallet was stolen.
+蛋糕 被 弟弟 吃 了。|dàngāo bèi dìdi chī le.|ເຄັກຖືກນ້ອງຊາຍກິນແລ້ວ.|The cake was eaten by my little brother.
+他 被 老师 批评 了。|tā bèi lǎoshī pīpíng le.|ລາວຖືກຄູຕິຕຽນ.|He was criticized by the teacher.
+# 如果…就… | ຖ້າ…ກໍ່… (ເງື່ອນໄຂ).
+如果 明天 下雨，我们 就 不 去 了。|rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le.|ຖ້າມື້ອື່ນຝົນຕົກ ພວກເຮົາກໍ່ບໍ່ໄປ.|If it rains tomorrow, we won't go.
+如果 你 有 问题，就 给 我 打电话。|rúguǒ nǐ yǒu wèntí, jiù gěi wǒ dǎ diànhuà.|ຖ້າເຈົ້າມີບັນຫາ ກໍ່ໂທຫາຂ້ອຍ.|If you have a problem, call me.
+如果 太 累，就 休息 一下。|rúguǒ tài lèi, jiù xiūxi yíxià.|ຖ້າເມື່ອຍຫຼາຍ ກໍ່ພັກຈັກໜ່ອຍ.|If you're too tired, take a rest.
+# 越来越 + Adjective | ຍິ່ງມາຍິ່ງ… / …ຂຶ້ນເລື້ອຍໆ.
+天气 越来越 热 了。|tiānqì yuè lái yuè rè le.|ອາກາດຮ້ອນຂຶ້ນເລື້ອຍໆ.|The weather is getting hotter and hotter.
+你的 汉语 越来越 好 了。|nǐ de Hànyǔ yuè lái yuè hǎo le.|ພາສາຈີນຂອງເຈົ້າດີຂຶ້ນເລື້ອຍໆ.|Your Chinese is getting better and better.
+东西 越来越 贵。|dōngxi yuè lái yuè guì.|ເຄື່ອງແພງຂຶ້ນເລື້ອຍໆ.|Things are getting more and more expensive.
+# 除了…还/也… | ນອກຈາກ… ຍັງ…ນຳ.
+除了 汉语，我 还 会 说 英语。|chúle Hànyǔ, wǒ hái huì shuō Yīngyǔ.|ນອກຈາກພາສາຈີນ ຂ້ອຍຍັງເວົ້າພາສາອັງກິດໄດ້.|Besides Chinese, I can speak English.
+除了 他，大家 都 来 了。|chúle tā, dàjiā dōu lái le.|ນອກຈາກລາວ ທຸກຄົນມາແລ້ວ.|Everyone came except him.
+除了 米饭，我 还 想 要 一个 汤。|chúle mǐfàn, wǒ hái xiǎng yào yí ge tāng.|ນອກຈາກເຂົ້າ ຂ້ອຍຍັງຢາກໄດ້ແກງໜຶ່ງຖ້ວຍ.|Besides rice, I'd also like a soup.
+# Verb + ຜົນ (懂/完/到/见) | ບອກຜົນຂອງການກະທຳ: 听懂 = ຟັງເຂົ້າໃຈ, 做完 = ເຮັດແລ້ວ, 找到 = ຊອກພົບ.
+我 听 不 懂。|wǒ tīng bu dǒng.|ຂ້ອຍຟັງບໍ່ເຂົ້າໃຈ.|I can't understand (by listening).
+作业 我 已经 做 完 了。|zuòyè wǒ yǐjīng zuò wán le.|ວຽກບ້ານຂ້ອຍເຮັດແລ້ວ.|I've finished my homework.
+我 终于 找 到 工作 了。|wǒ zhōngyú zhǎo dào gōngzuò le.|ໃນທີ່ສຸດຂ້ອຍກໍ່ຫາວຽກໄດ້.|I finally found a job.
+# 一…就… | ພໍ…ກໍ່… (ທັນທີ).
+我 一 到 家 就 给 你 打电话。|wǒ yí dào jiā jiù gěi nǐ dǎ diànhuà.|ພໍຮອດບ້ານ ຂ້ອຍຈະໂທຫາເຈົ້າທັນທີ.|I'll call you as soon as I get home.
+他 一 喝 酒 就 脸红。|tā yì hē jiǔ jiù liǎn hóng.|ລາວພໍດື່ມເຫຼົ້າ ໜ້າກໍ່ແດງ.|As soon as he drinks, his face turns red.
+我 一 看 就 明白 了。|wǒ yí kàn jiù míngbai le.|ຂ້ອຍພໍເບິ່ງກໍ່ເຂົ້າໃຈທັນທີ.|I understood as soon as I looked.
+# 对…感兴趣 / 对…很好 | 对 = ຕໍ່ / ກັບ. "对 + ຄົນ/ສິ່ງ + ຄຳຄຸນນາມ".
+我 对 中国 文化 很 感 兴趣。|wǒ duì Zhōngguó wénhuà hěn gǎn xìngqù.|ຂ້ອຍສົນໃຈວັດທະນະທຳຈີນຫຼາຍ.|I'm very interested in Chinese culture.
+老师 对 我们 很 好。|lǎoshī duì wǒmen hěn hǎo.|ຄູດີຕໍ່ພວກເຮົາຫຼາຍ.|The teacher is very good to us.
+抽烟 对 身体 不 好。|chōuyān duì shēntǐ bù hǎo.|ການສູບຢາບໍ່ດີຕໍ່ສຸຂະພາບ.|Smoking is bad for your health.
+
+## 4
+# 虽然…但是… | ເຖິງວ່າ…ແຕ່…
+虽然 很 累，但是 我 很 开心。|suīrán hěn lèi, dànshì wǒ hěn kāixīn.|ເຖິງວ່າຈະເມື່ອຍ ແຕ່ຂ້ອຍກໍ່ມ່ວນ.|Although tired, I'm happy.
+虽然 他 是 外国人，但是 汉语 说 得 很 好。|suīrán tā shì wàiguórén, dànshì Hànyǔ shuō de hěn hǎo.|ເຖິງລາວເປັນຄົນຕ່າງປະເທດ ແຕ່ເວົ້າພາສາຈີນເກັ່ງ.|Although he's a foreigner, he speaks Chinese well.
+虽然 价格 有点儿 贵，但是 质量 很 好。|suīrán jiàgé yǒudiǎnr guì, dànshì zhìliàng hěn hǎo.|ເຖິງລາຄາຈະແພງໜ້ອຍໜຶ່ງ ແຕ່ຄຸນນະພາບດີ.|The price is a bit high, but the quality is good.
+# 不但…而且… | ບໍ່ພຽງແຕ່…ແຕ່ຍັງ…
+她 不但 漂亮，而且 很 聪明。|tā búdàn piàoliang, érqiě hěn cōngming.|ລາວບໍ່ພຽງແຕ່ງາມ ແຕ່ຍັງສະຫຼາດ.|She's not only pretty but also smart.
+这 家 饭店 不但 便宜，而且 好吃。|zhè jiā fàndiàn búdàn piányi, érqiě hǎochī.|ຮ້ານນີ້ບໍ່ພຽງແຕ່ຖືກ ແຕ່ຍັງແຊບ.|This restaurant is not only cheap but tasty.
+坐 地铁 不但 快，而且 方便。|zuò dìtiě búdàn kuài, érqiě fāngbiàn.|ລົດໄຟໃຕ້ດິນບໍ່ພຽງແຕ່ໄວ ແຕ່ຍັງສະດວກ.|The subway is not only fast but convenient.
+# 只要…就… | ພຽງແຕ່…ກໍ່…  (ເງື່ອນໄຂພຽງພໍ)
+只要 努力，就 一定 会 成功。|zhǐyào nǔlì, jiù yídìng huì chénggōng.|ພຽງແຕ່ພະຍາຍາມ ກໍ່ຈະສຳເລັດແນ່ນອນ.|As long as you work hard, you'll succeed.
+只要 你 来，我 就 很 高兴。|zhǐyào nǐ lái, wǒ jiù hěn gāoxìng.|ພຽງແຕ່ເຈົ້າມາ ຂ້ອຍກໍ່ດີໃຈແລ້ວ.|As long as you come, I'll be happy.
+只要 有 护照，就 可以 办 签证。|zhǐyào yǒu hùzhào, jiù kěyǐ bàn qiānzhèng.|ພຽງແຕ່ມີໜັງສືຜ່ານແດນ ກໍ່ເຮັດວີຊາໄດ້.|As long as you have a passport, you can get a visa.
+# 无论/不管…都… | ບໍ່ວ່າ…ກໍ່…
+无论 多 忙，他 都 坚持 锻炼。|wúlùn duō máng, tā dōu jiānchí duànliàn.|ບໍ່ວ່າຈະຫຍຸ້ງປານໃດ ລາວກໍ່ອອກກຳລັງກາຍສະເໝີ.|However busy, he keeps exercising.
+不管 天气 怎么样，我 都 去。|bùguǎn tiānqì zěnmeyàng, wǒ dōu qù.|ບໍ່ວ່າອາກາດຈະເປັນແນວໃດ ຂ້ອຍກໍ່ໄປ.|Whatever the weather, I'll go.
+无论 谁 来，都 要 排队。|wúlùn shéi lái, dōu yào páiduì.|ບໍ່ວ່າໃຜມາ ກໍ່ຕ້ອງເຂົ້າແຖວ.|Whoever comes must line up.
+# 让 / 使 + ຄົນ + … (ເຮັດໃຫ້) | ເຮັດໃຫ້ຄົນອື່ນເຮັດ ຫຼື ຮູ້ສຶກ.
+他的 话 让 我 很 感动。|tā de huà ràng wǒ hěn gǎndòng.|ຄຳເວົ້າຂອງລາວເຮັດໃຫ້ຂ້ອຍຊາບຊຶ້ງ.|His words moved me.
+妈妈 让 我 早点儿 回家。|māma ràng wǒ zǎo diǎnr huíjiā.|ແມ່ໃຫ້ຂ້ອຍກັບບ້ານໄວໆ.|Mom told me to come home early.
+这 件 事 让 大家 很 失望。|zhè jiàn shì ràng dàjiā hěn shīwàng.|ເລື່ອງນີ້ເຮັດໃຫ້ທຸກຄົນຜິດຫວັງ.|This disappointed everyone.
+# 连…都/也… | ແມ່ນແຕ່…ກໍ່…  (ເນັ້ນ)
+他 连 饭 都 没 吃 就 走 了。|tā lián fàn dōu méi chī jiù zǒu le.|ລາວແມ່ນແຕ່ເຂົ້າກໍ່ບໍ່ໄດ້ກິນ ກໍ່ໜີໄປແລ້ວ.|He left without even eating.
+这个 字 连 老师 也 不 认识。|zhège zì lián lǎoshī yě bú rènshi.|ຕົວນີ້ແມ່ນແຕ່ຄູກໍ່ບໍ່ຮູ້ຈັກ.|Even the teacher doesn't know this character.
+我 忙 得 连 喝 水 的 时间 都 没有。|wǒ máng de lián hē shuǐ de shíjiān dōu méiyǒu.|ຂ້ອຍຫຍຸ້ງຈົນແມ່ນແຕ່ເວລາດື່ມນ້ຳກໍ່ບໍ່ມີ.|I'm so busy I don't even have time to drink water.
+# 既然…就… | ໃນເມື່ອ…ກໍ່…
+既然 你 不 舒服，就 回家 休息 吧。|jìrán nǐ bù shūfu, jiù huíjiā xiūxi ba.|ໃນເມື່ອເຈົ້າບໍ່ສະບາຍ ກໍ່ກັບບ້ານໄປພັກເທາະ.|Since you're unwell, go home and rest.
+既然 来 了，就 多 住 几天。|jìrán lái le, jiù duō zhù jǐ tiān.|ໃນເມື່ອມາແລ້ວ ກໍ່ພັກຫຼາຍມື້ແດ່.|Since you're here, stay a few more days.
+既然 决定 了，就 别 后悔。|jìrán juédìng le, jiù bié hòuhuǐ.|ໃນເມື່ອຕັດສິນໃຈແລ້ວ ກໍ່ຢ່າເສຍໃຈ.|Since you've decided, don't regret it.
+# 是…的 (ເນັ້ນ ເວລາ/ບ່ອນ/ວິທີ) | ເນັ້ນລາຍລະອຽດຂອງເຫດການທີ່ເກີດແລ້ວ.
+你 是 什么 时候 来 的？|nǐ shì shénme shíhou lái de?|ເຈົ້າມາຕັ້ງແຕ່ເມື່ອໃດ?|When did you come?
+我 是 坐 火车 来 的。|wǒ shì zuò huǒchē lái de.|ຂ້ອຍມາດ້ວຍລົດໄຟ.|I came by train.
+这 件 衣服 是 在 万象 买 的。|zhè jiàn yīfu shì zài Wànxiàng mǎi de.|ເສື້ອໂຕນີ້ຊື້ຢູ່ວຽງຈັນ.|This shirt was bought in Vientiane.
+
+## 5
+# 不得不 + Verb | ຈຳເປັນຕ້ອງ (ບໍ່ມີທາງເລືອກ).
+雨 太 大，我们 不得不 取消 活动。|yǔ tài dà, wǒmen bùdébù qǔxiāo huódòng.|ຝົນຕົກໜັກ ພວກເຮົາຈຳເປັນຕ້ອງຍົກເລີກກິດຈະກຳ.|The rain was so heavy we had to cancel.
+为了 赶 飞机，他 不得不 早 起。|wèile gǎn fēijī, tā bùdébù zǎo qǐ.|ເພື່ອໃຫ້ທັນຍົນ ລາວຈຳເປັນຕ້ອງຕື່ນເຊົ້າ.|To catch the flight, he had to get up early.
+钱 不 够，我 不得不 借 钱。|qián bú gòu, wǒ bùdébù jiè qián.|ເງິນບໍ່ພໍ ຂ້ອຍຈຳເປັນຕ້ອງຢືມເງິນ.|Not enough money, I had to borrow.
+# 与其…不如… | ແທນທີ່ຈະ… ສູ້…ດີກວ່າ.
+与其 坐 车，不如 走路。|yǔqí zuò chē, bùrú zǒulù.|ແທນທີ່ຈະນັ່ງລົດ ຍ່າງໄປດີກວ່າ.|Rather than take the car, better to walk.
+与其 抱怨，不如 想 办法。|yǔqí bàoyuàn, bùrú xiǎng bànfǎ.|ແທນທີ່ຈະຈົ່ມ ຫາວິທີແກ້ດີກວ່າ.|Rather than complain, find a solution.
+与其 等待，不如 主动 联系 他。|yǔqí děngdài, bùrú zhǔdòng liánxì tā.|ແທນທີ່ຈະລໍຖ້າ ຕິດຕໍ່ລາວເອງດີກວ່າ.|Rather than wait, contact him yourself.
+# 即使…也… | ເຖິງແມ່ນວ່າ (ສົມມຸດ)… ກໍ່…
+即使 下雨，比赛 也 会 进行。|jíshǐ xià yǔ, bǐsài yě huì jìnxíng.|ເຖິງແມ່ນຝົນຕົກ ການແຂ່ງຂັນກໍ່ຈະດຳເນີນຕໍ່.|Even if it rains, the match will go on.
+即使 很 难，我 也 不 放弃。|jíshǐ hěn nán, wǒ yě bú fàngqì.|ເຖິງແມ່ນຈະຍາກ ຂ້ອຍກໍ່ບໍ່ຍອມແພ້.|Even if it's hard, I won't give up.
+即使 你 不 说，我 也 知道。|jíshǐ nǐ bù shuō, wǒ yě zhīdào.|ເຖິງເຈົ້າບໍ່ເວົ້າ ຂ້ອຍກໍ່ຮູ້.|Even if you don't say it, I know.
+# 随着… | ພ້ອມກັບ… (ການປ່ຽນແປງ)
+随着 经济 的 发展，生活 越来越 好。|suízhe jīngjì de fāzhǎn, shēnghuó yuè lái yuè hǎo.|ພ້ອມກັບການພັດທະນາເສດຖະກິດ ຊີວິດກໍ່ດີຂຶ້ນ.|With economic growth, life gets better.
+随着 年龄 的 增长，他 越来越 成熟。|suízhe niánlíng de zēngzhǎng, tā yuè lái yuè chéngshú.|ພ້ອມກັບອາຍຸທີ່ເພີ່ມຂຶ້ນ ລາວກໍ່ເປັນຜູ້ໃຫຍ່ຂຶ້ນ.|As he grows older, he becomes more mature.
+随着 中老铁路 的 开通，旅游 的 人 多 了。|suízhe Zhōng-Lǎo tiělù de kāitōng, lǚyóu de rén duō le.|ພ້ອມກັບການເປີດທາງລົດໄຟລາວ-ຈີນ ນັກທ່ອງທ່ຽວກໍ່ຫຼາຍຂຶ້ນ.|With the China-Laos railway opening, more people travel.
+# 对于… / 关于… | 对于 = ສຳລັບ/ຕໍ່; 关于 = ກ່ຽວກັບ.
+对于 这个 问题，大家 有 不同 的 看法。|duìyú zhège wèntí, dàjiā yǒu bùtóng de kànfǎ.|ສຳລັບບັນຫານີ້ ທຸກຄົນມີຄວາມເຫັນຕ່າງກັນ.|People have different views on this issue.
+关于 合同 的 细节，我们 明天 再 谈。|guānyú hétong de xìjié, wǒmen míngtiān zài tán.|ກ່ຽວກັບລາຍລະອຽດສັນຍາ ພວກເຮົາຈະລົມກັນມື້ອື່ນ.|We'll discuss the contract details tomorrow.
+这 是 一本 关于 老挝 历史 的 书。|zhè shì yì běn guānyú Lǎowō lìshǐ de shū.|ນີ້ແມ່ນປຶ້ມກ່ຽວກັບປະຫວັດສາດລາວ.|This is a book about Lao history.
+# 哪怕…也… | ເຖິງແມ່ນວ່າ… ກໍ່… (ເນັ້ນແຮງ)
+哪怕 只有 一点 希望，我们 也 要 试试。|nǎpà zhǐyǒu yìdiǎn xīwàng, wǒmen yě yào shìshi.|ເຖິງມີຄວາມຫວັງພຽງໜ້ອຍດຽວ ພວກເຮົາກໍ່ຕ້ອງລອງ.|Even with just a little hope, we must try.
+哪怕 再 忙，也 要 吃 早饭。|nǎpà zài máng, yě yào chī zǎofàn.|ເຖິງຈະຫຍຸ້ງປານໃດ ກໍ່ຕ້ອງກິນເຂົ້າເຊົ້າ.|No matter how busy, eat breakfast.
+哪怕 失败，我 也 不 后悔。|nǎpà shībài, wǒ yě bú hòuhuǐ.|ເຖິງຈະລົ້ມເຫຼວ ຂ້ອຍກໍ່ບໍ່ເສຍໃຈ.|Even if I fail, I won't regret it.
+# 难怪… | ບໍ່ແປກທີ່…  (ເຂົ້າໃຈເຫດຜົນແລ້ວ)
+他 在 中国 住 了 十年，难怪 汉语 这么 好。|tā zài Zhōngguó zhù le shí nián, nánguài Hànyǔ zhème hǎo.|ລາວຢູ່ຈີນສິບປີ ບໍ່ແປກທີ່ພາສາຈີນເກັ່ງ.|He lived in China ten years—no wonder his Chinese is so good.
+下雪 了，难怪 这么 冷。|xià xuě le, nánguài zhème lěng.|ຫິມະຕົກ ບໍ່ແປກທີ່ໜາວປານນີ້.|It's snowing—no wonder it's so cold.
+难怪 你 不 接 电话，原来 手机 没电 了。|nánguài nǐ bù jiē diànhuà, yuánlái shǒujī méi diàn le.|ບໍ່ແປກທີ່ເຈົ້າບໍ່ຮັບໂທ ທີ່ແທ້ແບັດໝົດ.|No wonder you didn't answer—your battery died.
+# 不是…而是… | ບໍ່ແມ່ນ…ແຕ່ແມ່ນ…
+他 不是 不 想 来，而是 没有 时间。|tā bú shì bù xiǎng lái, ér shì méiyǒu shíjiān.|ລາວບໍ່ແມ່ນບໍ່ຢາກມາ ແຕ່ບໍ່ມີເວລາ.|It's not that he doesn't want to come, he has no time.
+问题 不是 钱，而是 时间。|wèntí bú shì qián, ér shì shíjiān.|ບັນຫາບໍ່ແມ່ນເງິນ ແຕ່ແມ່ນເວລາ.|The problem isn't money but time.
+学 语言 不是 为了 考试，而是 为了 交流。|xué yǔyán bú shì wèile kǎoshì, ér shì wèile jiāoliú.|ຮຽນພາສາບໍ່ແມ່ນເພື່ອເສັງ ແຕ່ເພື່ອສື່ສານ.|Learning a language isn't for exams but for communication.
+
+## 6
+# 鉴于… | ເນື່ອງຈາກ… (ທາງການ)
+鉴于 天气 原因，航班 推迟 起飞。|jiànyú tiānqì yuányīn, hángbān tuīchí qǐfēi.|ເນື່ອງຈາກສະພາບອາກາດ ຖ້ຽວບິນຈຶ່ງເລື່ອນເວລາ.|Due to weather, the flight is delayed.
+鉴于 目前 的 情况，我们 需要 调整 计划。|jiànyú mùqián de qíngkuàng, wǒmen xūyào tiáozhěng jìhuà.|ເນື່ອງຈາກສະຖານະການປັດຈຸບັນ ພວກເຮົາຕ້ອງປັບແຜນ.|Given the situation, we need to adjust the plan.
+鉴于 他 的 贡献，公司 决定 给 他 奖励。|jiànyú tā de gòngxiàn, gōngsī juédìng gěi tā jiǎnglì.|ເນື່ອງຈາກການປະກອບສ່ວນຂອງລາວ ບໍລິສັດຈຶ່ງໃຫ້ລາງວັນ.|In view of his contribution, the company rewarded him.
+# 以…为… | ຖື…ເປັນ… (ທາງການ)
+我们 要 以 学生 为 中心。|wǒmen yào yǐ xuésheng wéi zhōngxīn.|ພວກເຮົາຕ້ອງຖືນັກຮຽນເປັນສູນກາງ.|We must take students as the center.
+这 家 公司 以 质量 为 第一。|zhè jiā gōngsī yǐ zhìliàng wéi dì yī.|ບໍລິສັດນີ້ຖືຄຸນນະພາບເປັນອັນດັບໜຶ່ງ.|This company puts quality first.
+他 以 父亲 为 榜样。|tā yǐ fùqīn wéi bǎngyàng.|ລາວຖືພໍ່ເປັນແບບຢ່າງ.|He takes his father as a role model.
+# 之所以…是因为… | ທີ່…ກໍ່ເພາະວ່າ…
+他 之所以 成功，是 因为 他 很 努力。|tā zhī suǒyǐ chénggōng, shì yīnwèi tā hěn nǔlì.|ທີ່ລາວສຳເລັດກໍ່ເພາະລາວພະຍາຍາມ.|He succeeded because he worked hard.
+我 之所以 学 汉语，是 因为 想 去 中国 工作。|wǒ zhī suǒyǐ xué Hànyǔ, shì yīnwèi xiǎng qù Zhōngguó gōngzuò.|ທີ່ຂ້ອຍຮຽນພາສາຈີນກໍ່ເພາະຢາກໄປເຮັດວຽກຢູ່ຈີນ.|I study Chinese because I want to work in China.
+这里 之所以 吸引 游客，是 因为 风景 美丽。|zhèlǐ zhī suǒyǐ xīyǐn yóukè, shì yīnwèi fēngjǐng měilì.|ທີ່ບ່ອນນີ້ດຶງດູດນັກທ່ອງທ່ຽວກໍ່ເພາະທິວທັດງາມ.|This place attracts tourists because the scenery is beautiful.
+# 宁可…也不… | ຍອມ…ດີກວ່າ… ບໍ່…
+我 宁可 走路，也 不 坐 他的 车。|wǒ nìngkě zǒulù, yě bú zuò tā de chē.|ຂ້ອຍຍອມຍ່າງ ດີກວ່ານັ່ງລົດລາວ.|I'd rather walk than ride in his car.
+他 宁可 加班，也 不 愿意 放弃 这个 项目。|tā nìngkě jiābān, yě bú yuànyì fàngqì zhège xiàngmù.|ລາວຍອມເຮັດວຽກລ່ວງເວລາ ດີກວ່າປະຖິ້ມໂຄງການນີ້.|He'd rather work overtime than give up this project.
+宁可 慢 一点，也 不 能 出错。|nìngkě màn yìdiǎn, yě bù néng chūcuò.|ຍອມຊ້າໜ້ອຍໜຶ່ງ ດີກວ່າເຮັດຜິດ.|Better slower than make mistakes.
+# 何况… | ນັບປະສາຫຍັງກັບ…
+这个 问题 老师 都 不 会，何况 学生 呢？|zhège wèntí lǎoshī dōu bú huì, hékuàng xuésheng ne?|ບັນຫານີ້ຄູຍັງເຮັດບໍ່ໄດ້ ນັບປະສາຫຍັງກັບນັກຮຽນ.|Even teachers can't solve it, let alone students.
+走路 都 累，何况 跑步。|zǒulù dōu lèi, hékuàng pǎobù.|ຍ່າງຍັງເມື່ອຍ ນັບປະສາຫຍັງກັບແລ່ນ.|Walking is tiring, let alone running.
+大人 都 害怕，何况 孩子。|dàren dōu hàipà, hékuàng háizi.|ຜູ້ໃຫຍ່ຍັງຢ້ານ ນັບປະສາຫຍັງກັບເດັກນ້ອຍ.|Even adults are scared, let alone children.
+# 一旦…就… | ເມື່ອໃດທີ່…ກໍ່…
+一旦 发现 问题，就 要 马上 报告。|yídàn fāxiàn wèntí, jiù yào mǎshàng bàogào.|ເມື່ອໃດພົບບັນຫາ ຕ້ອງລາຍງານທັນທີ.|Once a problem is found, report it at once.
+一旦 失去 信任，就 很 难 恢复。|yídàn shīqù xìnrèn, jiù hěn nán huīfù.|ເມື່ອໃດສູນເສຍຄວາມໄວ້ວາງໃຈ ກໍ່ຍາກທີ່ຈະຟື້ນຟູ.|Once trust is lost, it's hard to restore.
+一旦 签 了 合同，就 不能 改 了。|yídàn qiān le hétong, jiù bù néng gǎi le.|ເມື່ອເຊັນສັນຍາແລ້ວ ກໍ່ແກ້ບໍ່ໄດ້.|Once the contract is signed, it can't be changed.
+# 成语 (ສຳນວນສີ່ຄຳ) ໃນປະໂຫຍກ | ສຳນວນ 4 ຕົວໃຊ້ເປັນຄຳກິລິຍາ ຫຼື ຄຳຄຸນນາມ ເຮັດໃຫ້ພາສາເປັນທາງການ ແລະ ສະຫຼາດ.
+这个 办法 一举两得。|zhège bànfǎ yìjǔ-liǎngdé.|ວິທີນີ້ໄດ້ສອງຕໍ່.|This method kills two birds with one stone.
+学 汉语 要 循序渐进。|xué Hànyǔ yào xúnxù-jiànjìn.|ຮຽນພາສາຈີນຕ້ອງເທື່ອລະກ້າວ.|Learning Chinese must be step by step.
+他 做事 总是 一丝不苟。|tā zuòshì zǒngshì yìsī-bùgǒu.|ລາວເຮັດວຽກລະອຽດຖີ່ຖ້ວນສະເໝີ.|He's always meticulous in his work.
+# 就…而言 / 从…来看 | ໃນແງ່ຂອງ… / ເບິ່ງຈາກ…  (ໃຊ້ໃນການປະຊຸມ, ລາຍງານ)
+就 价格 而言，这 款 手机 很 有 优势。|jiù jiàgé ér yán, zhè kuǎn shǒujī hěn yǒu yōushì.|ໃນແງ່ລາຄາ ໂທລະສັບລຸ້ນນີ້ໄດ້ປຽບຫຼາຍ.|In terms of price, this phone has an advantage.
+从 数据 来 看，销售 情况 不错。|cóng shùjù lái kàn, xiāoshòu qíngkuàng búcuò.|ເບິ່ງຈາກຂໍ້ມູນ ການຂາຍດີພໍສົມຄວນ.|Judging from the data, sales are good.
+从 长远 来 看，这 是 正确 的 选择。|cóng chángyuǎn lái kàn, zhè shì zhèngquè de xuǎnzé.|ເບິ່ງໃນໄລຍະຍາວ ນີ້ແມ່ນທາງເລືອກທີ່ຖືກຕ້ອງ.|In the long run, this is the right choice.

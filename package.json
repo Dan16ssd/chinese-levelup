@@ -1,0 +1,11 @@
+{
+  "name": "chinese-levelup",
+  "private": true,
+  "description": "Learn Chinese (HSK 1-6) for Lao speakers - static site",
+  "scripts": {
+    "build": "node tools/build_data.js",
+    "check": "node tools/build_data.js --check",
+    "test": "node --test \"tests/*.test.js\"",
+    "audio": "python tools/gen_audio.py"
+  }
+}
